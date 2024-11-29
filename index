@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina de receptes de cuina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Pàgina de Receptes de Cuina</h1>
+    </header>
+
+    <main>
+        <h2>Categoríes de Receptes</h2>
+        
+        <ul>
+            <li class="categoria">Receptes de Peix
+                <ul>
+                    <li><a href="receta1">Paella</a></li>
+                </ul>
+            </li>
+            <li class="categoria">Receptes Mexicanes
+                <ul>
+                    <li><a href="receta2">Tacos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+    <body>
+        
+    </body>
+
+    <footer>
+        <p>&copy; 2024 Receptes de Cuina</p>
+    </footer>
+</body>
+</html>

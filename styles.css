@@ -1,0 +1,87 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(231, 6, 231);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: rgb(255, 0, 0);
+}
+
+/* Estilo de la página principal */
+main {
+    padding: 20px;
+}
+
+.categoria {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff2a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la receta */
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+/* Enlaces de secciones dentro de la receta */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos internos para imágenes */
+img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}

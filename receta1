@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paella</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Paella</h1>
+    </header>
+
+    <main>
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>400g d'arròs</li>
+                <li>1 litre de caldo de peix</li>
+                <li>500g de mariscos (gambes, musclos, calamars)</li>
+                <li>1 pebrot vermell</li>
+                <li>1 tomàquet</li>
+            </ul>
+        </section>
+
+        <section id="passes">
+            <h2>Passos a seguir</h2>
+            <ol>
+                <li>Posa a calfar el caldo de peix.</li>
+                <li>En una paella, daura els mariscos.</li>
+                <li>Afegeix el pebrot i el tomàquet, deixa cuinar.</li>
+                <li>Afegiu l'arròs i el caldo i deixa coure durant 20 minuts.</li>
+                <li>Deixa reposar abans de servir.</li>
+            </ol>
+        </section>
+
+        <section>
+            <a href="#ingredients">Enllaç als ingredients</a> |
+            <a href="#passes">Enllaç als passos</a>
+        </section>
+
+        <figure>
+            <img src="paella.jpg" alt="Paella" width="400">
+            <figcaption>Paella deliciosa</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Receptes de Cuina</p>
+    </footer>
+</body>
+</html>
